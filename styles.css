@@ -1,0 +1,102 @@
+/* Bahasa */
+.language-switch {
+    text-align: right;
+    padding: 10px;
+    background-color: #1E90FF;
+}
+.language-switch a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.language-switch a:hover {
+    color: #FFA500;
+}
+
+/* Header */
+header .header-university {
+    background-color: #002244;
+    color: #FFD700;
+    font-family: Georgia, serif;
+    text-align: center;
+    padding: 10px;
+}
+header .header-welcome {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Navigasi */
+nav {
+    background-color: #1E90FF;
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+nav a:hover {
+    background-color: #003366;
+}
+
+/* Interaktif Expandable */
+.expandable {
+    cursor: pointer;
+    background-color: #FFD700;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    text-align: center; /* Menjadikan tombol rata tengah */
+}
+.expandable:hover {
+    background-color: #FFA500;
+}
+.details {
+    display: none;
+    background-color: #F8F8FF;
+    border: 1px solid #B0C4DE;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Galeri */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 10px;
+}
+.photo-grid img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.photo-grid p {
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    background-color: #002244;
+    color: #FFD700;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+footer a {
+    color: #FFA500;
+}
+footer a:hover {
+    color: #FFD700;
+}

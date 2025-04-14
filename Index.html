@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Perkenalan Arsal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleDetails(id) {
+            const details = document.getElementById(id);
+            if (details.style.display === "none" || details.style.display === "") {
+                details.style.display = "block";
+            } else {
+                details.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div class="language-switch">
+        <a href="Index.html">ID</a>
+        <a href="Perkenalan EN.html">EN</a>
+        <a href="Perkenalan ES.html">ES</a>
+        <a href="Perkenalan PR.html">PR</a>
+    </div>
+
+    <header>
+        <div class="header-university">
+            <h1>Universitas Brawijaya</h1>
+        </div>
+        <div class="header-welcome">
+            <h2>Selamat Datang di Halaman Perkenalan Arsal</h2>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">Tentang Saya</a>
+        <a href="#skills">Keahlian</a>
+        <a href="#education">Pendidikan</a>
+        <a href="#experience">Pengalaman</a>
+        <a href="#contact">Kontak</a>
+        <a href="#gallery">Galeri</a>
+        <a href="#certificates">Sertifikat</a>
+    </nav>
+
+    <div class="main-content">
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <p>Nama saya Arsal Bil Hakki R. Said, seorang mahasiswa Sistem Informasi di Universitas Brawijaya yang berdedikasi pada solusi kreatif dan berbasis data. Saya memiliki pengalaman lebih dari tiga tahun sebagai Master of Ceremony yang profesional.</p>
+        </section>
+
+        <button class="expandable" onclick="toggleDetails('skills-details')">Keahlian</button>
+        <div id="skills-details" class="details">
+            <ul>
+                <li>Kepemimpinan: Memimpin tim dengan efektif untuk mencapai tujuan bersama.</li>
+                <li>Komunikasi: Menyampaikan ide dengan jelas dan profesional.</li>
+                <li>Berpikir Kritis: Menganalisis masalah dan memberikan solusi inovatif.</li>
+                <li>Kerja Tim: Bekerja sama untuk hasil terbaik.</li>
+            </ul>
+        </div>
+
+        <button class="expandable" onclick="toggleDetails('education-details')">Pendidikan</button>
+        <div id="education-details" class="details">
+            <ul>
+                <li>MAN 1 Pekanbaru (2021-2024): Jurusan Matematika dan IPA.</li>
+                <li>Universitas Brawijaya (2024-sekarang): Sistem Informasi.</li>
+            </ul>
+        </div>
+
+        <button class="expandable" onclick="toggleDetails('experience-details')">Pengalaman</button>
+        <div id="experience-details" class="details">
+            <ul>
+                <li>Kepala Pengkaderan di Rohani Islam MAN 1 Pekanbaru.</li>
+                <li>Ketua Panitia Pekan Muharram MAN 1 Pekanbaru.</li>
+                <li>Koordinator Kompetisi Olimpiade Romansa.</li>
+            </ul>
+        </div>
+
+        <button class="expandable" onclick="toggleDetails('contact-details')">Kontak</button>
+        <div id="contact-details" class="details">
+            <ul>
+                <li>WhatsApp: +62 896 6964 6219</li>
+                <li>Line: arsal_bilhakki</li>
+                <li>Instagram: <a href="https://www.instagram.com/arsal_bilhakki">@arsal_bilhakki</a></li>
+                <li>Email: <a href="mailto:arsalbilhakki@student.ub.ac.id">arsalbilhakki@student.ub.ac.id</a></li>
+                <li>Lokasi: Malang, Jawa Timur</li>
+            </ul>
+        </div>
+
+        <button class="expandable" onclick="toggleDetails('gallery-details')">Galeri</button>
+        <div id="gallery-details" class="details">
+            <div class="photo-grid">
+                <div>
+                    <img src="foto1.jpg" alt="Foto 1">
+                    <p>Keterangan Foto 1</p>
+                </div>
+                <div>
+                    <img src="foto2.jpg" alt="Foto 2">
+                    <p>Keterangan Foto 2</p>
+                </div>
+                <div>
+                    <img src="foto3.jpg" alt="Foto 3">
+                    <p>Keterangan Foto 3</p>
+                </div>
+                <div>
+                    <img src="foto4.jpg" alt="Foto 4">
+                    <p>Keterangan Foto 4</p>
+                </div>
+                <div>
+                    <img src="foto5.jpg" alt="Foto 5">
+                    <p>Keterangan Foto 5</p>
+                </div>
+                <div>
+                    <img src="foto6.jpg" alt="Foto 6">
+                    <p>Keterangan Foto 6</p>
+                </div>
+                <div>
+                    <img src="foto7.jpg" alt="Foto 7">
+                    <p>Keterangan Foto 7</p>
+                </div>
+                <div>
+                    <img src="foto8.jpg" alt="Foto 8">
+                    <p>Keterangan Foto 8</p>
+                </div>
+                <div>
+                    <img src="foto9.jpg" alt="Foto 9">
+                    <p>Keterangan Foto 9</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="expandable" onclick="toggleDetails('certificates-details')">Sertifikat</button>
+        <div id="certificates-details" class="details">
+            <div class="photo-grid">
+                <div>
+                    <img src="sertifikat1.jpg" alt="Sertifikat 1">
+                    <p>Keterangan Sertifikat 1</p>
+                </div>
+                <div>
+                    <img src="sertifikat2.jpg" alt="Sertifikat 2">
+                    <p>Keterangan Sertifikat 2</p>
+                </div>
+                <div>
+                    <img src="sertifikat3.jpg" alt="Sertifikat 3">
+                    <p>Keterangan Sertifikat 3</p>
+                </div>
+                <div>
+                    <img src="sertifikat4.jpg" alt="Sertifikat 4">
+                    <p>Keterangan Sertifikat 4</p>
+                </div>
+                <div>
+                    <img src="sertifikat5.jpg" alt="Sertifikat 5">
+                    <p>Keterangan Sertifikat 5</p>
+                </div>
+                <div>
+                    <img src="sertifikat6.jpg" alt="Sertifikat 6">
+                    <p>Keterangan Sertifikat 6</p>
+                </div><div>
+                    <img src="sertifikat7.jpg" alt="Sertifikat 7">
+                    <p>Keterangan Sertifikat 7</p>
+                </div>
+                <div>
+                    <img src="sertifikat8.jpg" alt="Sertifikat 8">
+                    <p>Keterangan Sertifikat 8</p>
+                </div>
+                <div>
+                    <img src="sertifikat9.jpg" alt="Sertifikat 9">
+                    <p>Keterangan Sertifikat 9</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Hak Cipta © 2025 - Dibuat oleh Arsal</p>
+        <p>Kontak: <a href="mailto:arsalbilhakki@student.ub.ac.id">arsalbilhakki@student.ub.ac.id</a></p>
+    </footer>
+</body>
+</html>

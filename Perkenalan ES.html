@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Introducción</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleDetails(id) {
+            const details = document.getElementById(id);
+            if (details.style.display === "none" || details.style.display === "") {
+                details.style.display = "block";
+            } else {
+                details.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+    <div class="language-switch">
+        <a href="Index.html">ID</a>
+        <a href="Perkenalan EN.html">EN</a>
+        <a href="Perkenalan ES.html">ES</a>
+        <a href="Perkenalan PR.html">PR</a>
+    </div>
+
+    <header>
+        <div class="header-university">
+            <h1>Universidad Brawijaya</h1>
+        </div>
+        <div class="header-welcome">
+            <h2>Bienvenido a la página de introducción de Arsal</h2>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre Mí</a>
+        <a href="#skills">Habilidades</a>
+        <a href="#education">Educación</a>
+        <a href="#experience">Experiencia</a>
+        <a href="#contact">Contacto</a>
+        <a href="#gallery">Galería</a>
+        <a href="#certificates">Certificados</a>
+    </nav>
+
+    <div class="main-content">
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>Mi nombre es Arsal Bil Hakki R. Said, un estudiante de Sistemas de Información en la Universidad Brawijaya. Estoy dedicado a soluciones creativas y basadas en datos. Con más de tres años de experiencia como Maestro de Ceremonias profesional, participo activamente en debates y oratoria pública.</p>
+        </section>
+
+        <button class="expandable" onclick="toggleDetails('skills-details')">Habilidades</button>
+        <div id="skills-details" class="details">
+            <ul>
+                <li>Liderazgo: Liderar equipos de manera eficaz para alcanzar objetivos comunes.</li>
+                <li>Comunicación: Transmitir ideas de manera clara y profesional.</li>
+                <li>Pensamiento Crítico: Analizar problemas y encontrar soluciones innovadoras.</li>
+                <li>Trabajo en Equipo: Colaborar para obtener los mejores resultados.</li>
+            </ul>
+        </div>
+
+        <button class="expandable" onclick="toggleDetails('education-details')">Educación</button>
+        <div id="education-details" class="details">
+            <ul>
+                <li>MAN 1 Pekanbaru (2021-2024): Especialización en Matemáticas y Ciencias Naturales.</li>
+                <li>Universidad Brawijaya (2024-presente): Estudiando Sistemas de Información.</li>
+            </ul>
+        </div>
+
+        <button class="expandable" onclick="toggleDetails('experience-details')">Experiencia</button>
+        <div id="experience-details" class="details">
+            <ul>
+                <li>Jefe de Desarrollo de Cuadros en Rohani Islam en la MAN 1 Pekanbaru.</li>
+                <li>Presidente del Comité Organizador de la Semana de Muharram en la MAN 1 Pekanbaru.</li>
+                <li>Coordinador del Concurso de Estudios Islámicos en la Olimpiada Romansa.</li>
+            </ul>
+        </div>
+
+        <button class="expandable" onclick="toggleDetails('contact-details')">Contacto</button>
+        <div id="contact-details" class="details">
+            <ul>
+                <li>WhatsApp: +62 896 6964 6219</li>
+                <li>Line: arsal_bilhakki</li>
+                <li>Instagram: <a href="https://www.instagram.com/arsal_bilhakki">@arsal_bilhakki</a></li>
+                <li>Correo electrónico: <a href="mailto:arsalbilhakki@student.ub.ac.id">arsalbilhakki@student.ub.ac.id</a></li>
+                <li>Ubicación: Malang, Java Oriental</li>
+            </ul>
+        </div>
+
+        <button class="expandable" onclick="toggleDetails('gallery-details')">Galería</button>
+        <div id="gallery-details" class="details">
+            <div class="photo-grid">
+                <div>
+                    <img src="foto1.jpg" alt="Foto 1">
+                    <p>Descripción de la Foto 1</p>
+                </div>
+                <div>
+                    <img src="foto2.jpg" alt="Foto 2">
+                    <p>Descripción de la Foto 2</p>
+                </div>
+                <div>
+                    <img src="foto3.jpg" alt="Foto 3">
+                    <p>Descripción de la Foto 3</p>
+                </div>
+                <div>
+                    <img src="foto4.jpg" alt="Foto 4">
+                    <p>Descripción de la Foto 4</p>
+                </div>
+                <div>
+                    <img src="foto5.jpg" alt="Foto 5">
+                    <p>Descripción de la Foto 5</p>
+                </div>
+                <div>
+                    <img src="foto6.jpg" alt="Foto 6">
+                    <p>Descripción de la Foto 6</p>
+                </div>
+                <div>
+                    <img src="foto7.jpg" alt="Foto 7">
+                    <p>Descripción de la Foto 7</p>
+                </div>
+                <div>
+                    <img src="foto8.jpg" alt="Foto 8">
+                    <p>Descripción de la Foto 8</p>
+                </div>
+                <div>
+                    <img src="foto9.jpg" alt="Foto 9">
+                    <p>Descripción de la Foto 9</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="expandable" onclick="toggleDetails('certificates-details')">Certificados</button>
+        <div id="certificates-details" class="details">
+            <div class="photo-grid">
+                <div>
+                    <img src="sertifikat1.jpg" alt="Certificado 1">
+                    <p>Descripción del Certificado 1</p>
+                </div>
+                <div>
+                    <img src="sertifikat2.jpg" alt="Certificado 2">
+                    <p>Descripción del Certificado 2</p>
+                </div>
+                <div>
+                    <img src="sertifikat3.jpg" alt="Certificado 3">
+                    <p>Descripción del Certificado 3</p>
+                </div>
+                <div>
+                    <img src="sertifikat4.jpg" alt="Certificado 4">
+                    <p>Descripción del Certificado 4</p>
+                </div>
+                <div>
+                    <img src="sertifikat5.jpg" alt="Certificado 5">
+                    <p>Descripción del Certificado 5</p>
+                </div>
+                <div>
+                    <img src="sertifikat6.jpg" alt="Certificado 6">
+                    <p>Descripción del Certificado 6</p>
+                </div>
+                <div>
+                    <img src="sertifikat7.jpg" alt="Certificado 7">
+                    <p>Descripción del Certificado 7</p>
+                </div>
+                <div>
+                    <img src="sertifikat8.jpg" alt="Certificado 8">
+                    <p>Descripción del Certificado 8</p>
+                </div>
+                <div>
+                    <img src="sertifikat9.jpg" alt="Certificado 9">
+                    <p>Descripción del Certificado 9</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Derechos de Autor © 2025 - Creado por Arsal</p>
+        <p>Contacto: <a href="mailto:arsalbilhakki@student.ub.ac.id">arsalbilhakki@student.ub.ac.id</a></p>
+    </footer>
+</body>
+</html>
